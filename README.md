@@ -13,12 +13,14 @@ Import the necessary packages.
 5. Split the data into training data and validation data.
 
 ## Step 3. Build the SVM model
-For information about sklearn SVC, go to: https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
-1. Build the SVM models.
+For information about sklearn SVC, go to: [sklearn.svm.SVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
+1. **Build the SVM models.**
     - Type 1: Multiple models: Build models according to every single column.
     - Type 2: MultiOutputClassifier model: Build the model according to all the columns.
     - Type 3: Weighted model: Build the weighted model to handle the imbalanced data.
-2. Use the model to predict the data.
-3. Evaluate the model's performance, including the accuracy and the f1-score.
+2. **Use the model to predict the data.**
+3. **Evaluate the model's performance**
+    - Including the accuracy and the f1-score.
 
 ## Step 4. Main code and model training
+Use the code implemented above to train the model.

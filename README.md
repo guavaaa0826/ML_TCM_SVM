@@ -26,7 +26,7 @@ The naming convention of the directories is **{Model kind}_{threshold}**.<br>
 Model kind stands for the different ways to build the SVM models.<br>
 Model kind 2 does not exist since it has the same output as mode kind 1.<br>
 Threshold stands for how many times the medicines are used at least.<br>
-For example, if the threshold is 100, it means all the medicines in it are used at least 100 times.<br><br>
+For example, if the threshold is 100, it means all the medicines in it are used at least 100 times.
 
 There are 2 .csv files under a directory, which stands for the result of training data and testing data.<br>
 The naming convention of the files is **{file kind}{Model kind}_{threshold}.csv**, while file kind is either "train" or "test".<br>
